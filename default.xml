@@ -6,10 +6,14 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <!-- CyanogenMod -->
+  <!-- CyanogenMod default -->
   <remote  name="cyanogenmod"
            fetch=".."
            review="review.cyanogenmod.org" />
+
+  <!-- CyanogenMod -->
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
 
   <!-- Github -->
   <remote  name="github"
