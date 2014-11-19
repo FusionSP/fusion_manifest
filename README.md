@@ -32,4 +32,4 @@ Then to build:
 
     lunch
 
-    time make fusion
+    time make fusionsp (or make -j16 fusionsp)
