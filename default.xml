@@ -55,7 +55,9 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.0" />
+  <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.0" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0"/>
+  <project path="system/vold" name="android_system_vold" remote="fusion" revision="lp5.0" />
   <!-- END -->
 
   <!-- AOSP -->
@@ -488,14 +490,12 @@
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <!-- END -->
 
   <!-- SlimRoms -->
