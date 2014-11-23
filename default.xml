@@ -548,10 +548,10 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <!-- END -->
 
-  <!-- SlimRoms -->
+  <!-- SlimRoms 
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.0" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.0" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.0" /> -->
   <!-- END -->
 
 </manifest>
