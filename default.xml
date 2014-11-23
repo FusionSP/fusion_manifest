@@ -56,8 +56,8 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.0-new" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.0" />
-  <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.0" />
-  <project path="system/vold" name="android_system_vold" remote="fusion" revision="lp5.0" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="cm-12.0" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-12.0" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0"/>
   <!-- END -->
 
