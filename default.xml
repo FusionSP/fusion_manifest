@@ -62,8 +62,9 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.0" />
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.0" />
   <project path="system/vold" name="android_system_vold" remote="fusion" revision="lp5.0" />
-  <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0"/>
-     <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
+  <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0">
+    <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
+  </project>
   <!-- END -->
 
   <!-- AOSP -->
