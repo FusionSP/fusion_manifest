@@ -496,7 +496,6 @@
   <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
@@ -530,9 +529,10 @@
   <!-- END -->
 
   <!-- SlimRoms -->
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.0" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.0" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.0" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="lp5.0" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.0" />
   <!-- END -->
 
 </manifest>
