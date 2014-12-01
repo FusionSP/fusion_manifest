@@ -540,8 +540,7 @@
   <!-- <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.0" /> -->
   <!-- END -->
 
-  <!-- We compile the kernel with SaberMod Linaro -->
-  <remove-project name="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="FusionSP/arm-eabi-4.10" remote="bitbucket" revision="master" />
+  <!-- We compile the kernel with SaberMod Linaro
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="FusionSP/arm-eabi-4.10" remote="bitbucket" revision="master" /> -->
 
 </manifest>
