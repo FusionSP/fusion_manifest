@@ -543,6 +543,7 @@
   <!-- We compile with SaberMod Linaro -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="fusion" revision="sm-4.8.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="fusion" revision="sm-4.9.3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="FusionSP/arm-eabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="FusionSP/arm-eabi-4.10" remote="bitbucket" revision="master" />
 
 </manifest>
