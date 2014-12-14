@@ -54,6 +54,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.0" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="fusion" revision="lp5.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fusion" revision="lp5.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="fusion" revision="lp5.0" />
   <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" remote="fusion" revision="lp5.0-caf-8226" />
@@ -445,7 +446,6 @@
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
