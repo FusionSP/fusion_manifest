@@ -32,4 +32,10 @@ Then to build:
 
     lunch
 
-    time make fusionsp (or make -j16 fusionsp)
+    make -j16 fusionsp (Or simply run ./build-fusion.sh)
+
+
+You can speed up subsequent builds by adding this command in terminal:
+
+export USE_CCACHE=1
+
