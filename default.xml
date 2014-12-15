@@ -54,6 +54,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.0" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="fusion" revision="lp5.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fusion" revision="lp5.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="fusion" revision="lp5.0" />
@@ -439,7 +440,6 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
