@@ -31,6 +31,10 @@
   <remote  name="bitbucket"
            fetch="https://bitbucket.org/" />
 
+  <!-- Linaro -->
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org" />
+
   <!-- SlimRoms -->
   <remote  name="slim"
            fetch="git://github.com/SlimRoms" />
@@ -84,6 +88,18 @@
   </project>
   <!-- END -->
 
+  <!-- Linaro -->
+  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/openssl" name="platform/external/openssl" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="refs/tags/android-5.0.1_r1" />
+
   <!-- AOSP -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -95,7 +111,6 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -141,20 +156,16 @@
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -173,7 +184,6 @@
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -253,7 +263,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1"  />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -358,7 +367,6 @@
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
-  <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs" />
   <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
@@ -384,7 +392,6 @@
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
-  <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
@@ -393,7 +400,6 @@
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
