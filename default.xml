@@ -74,6 +74,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="fusion" revision="lp5.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="fusion" revision="lp5.0" />
@@ -493,7 +494,6 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
