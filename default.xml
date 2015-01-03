@@ -57,6 +57,7 @@
   <project path="android" name="fusion_manifest" remote="fusion" revision="lp5.0" />
   <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.0" />
   <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.0" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.0" />
   <project path="external/koush/Superuser" name="Superuser" remote="fusion" revision="lp5.0" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
@@ -355,7 +356,6 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
