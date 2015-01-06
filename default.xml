@@ -54,7 +54,6 @@
   <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.0" />
   <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="fusion" revision="lp5.0" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
@@ -388,7 +387,6 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
@@ -532,6 +530,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
