@@ -83,6 +83,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="fusion" revision="lp5.0" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="fusion" revision="lp5.0" />
