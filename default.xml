@@ -53,6 +53,7 @@
   <project path="android" name="fusion_manifest" remote="fusion" revision="lp5.0" />
   <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.0" />
   <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fusion" revision="lp5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.0" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
@@ -345,7 +346,6 @@
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" />
