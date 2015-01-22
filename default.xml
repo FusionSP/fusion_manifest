@@ -539,6 +539,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <!-- END -->
 
   <!-- We compile with SaberMod Linaro -->
