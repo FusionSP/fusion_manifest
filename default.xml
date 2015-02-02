@@ -46,6 +46,9 @@
            sync-j="8" />
 
   <!-- Fusion -->
+  <project path="build" name="android_build" remote="fusion" revision="lp5.0">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="art" name="android_art" remote="fusion" revision="lp5.0" />
   <project path="android" name="fusion_manifest" remote="fusion" revision="lp5.0" />
   <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.0" />
@@ -399,6 +402,7 @@
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk-cw-fs" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
