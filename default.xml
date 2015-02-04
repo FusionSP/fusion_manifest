@@ -25,7 +25,7 @@
 
   <!-- Fusion devices -->
   <remote  name="fs-dev"
-           fetch="https://github.com/FusionSP" />
+           fetch="https://github.com/Fusion-Devices" />
 
   <!-- Fusion bitbucket -->
   <remote  name="bitbucket"
