@@ -22,6 +22,10 @@
   <!-- Fusion -->
   <remote  name="fusion"
            fetch="https://github.com/FusionSP" />
+           
+ <!-- BlackDragon Private -->
+  <remote  name="private"
+           fetch="https://github.com/NL-BlackDragon" />
 
   <!-- Fusion devices -->
   <remote  name="fs-dev"
@@ -46,7 +50,7 @@
            sync-j="8" />
 
   <!-- Fusion -->
-  <project path="build" name="android_build" remote="fusion" revision="lp5.0">
+  <project path="build" name="android_build" remote="private" revision="lp5.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="android_art" remote="fusion" revision="lp5.0" />
@@ -60,7 +64,7 @@
   <project path="external/jpeg" name="android_external_jpeg" remote="fusion" revision="lp5.0" />
   <project path="external/skia" name="android_external_skia" remote="fusion" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="private" revision="lp5.0" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="fusion" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.0" />
@@ -96,7 +100,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="fusion" revision="lp5.0" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="fusion" revision="lp5.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="private" revision="lp5.0" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="fusion" revision="lp5.0" />
     <!-- <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="fusion" revision="lp5.0" /> -->
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="fusion" revision="lp5.0" />
@@ -107,7 +111,7 @@
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.0" />
   <project path="system/vold" name="android_system_vold" remote="fusion" revision="lp5.0" />
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.0" />
-  <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0">
+  <project path="vendor/fusion" name="android_vendor_fusion" remote="private" revision="lp5.0">
     <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
   </project>
   <!-- END -->
