@@ -52,7 +52,7 @@
   <project path="art" name="android_art" remote="fusion" revision="lp5.0" />
   <project path="android" name="fusion_manifest" remote="fusion" revision="lp5.0" />
   <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.0" />
-  <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.0" />
+  <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.0-strict" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fusion" revision="lp5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.0" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="fusion" revision="lp5.0" />
