@@ -27,9 +27,9 @@
   <remote  name="fs-dev"
            fetch="https://github.com/Fusion-Devices" />
 
-  <!-- Fusion bitbucket -->
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org/" />
+  <!-- BlackDragon -->
+  <remote  name="bl"
+           fetch="https://github.com/NL-BlackDragon" />
 
   <!-- Linaro -->
   <remote  name="linaro"
@@ -538,10 +538,12 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <!-- END -->
 
-  <!-- We compile with SaberMod Linaro -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="fusion" revision="sm-4.8.4" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="fusion" revision="sm-4.9.3" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="FusionSP/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="FusionSP/arm-eabi-4.10" remote="bitbucket" revision="master" />
+  <!-- We compile with SaberMod ToolChains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.7.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.8.5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.9.3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.10.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="GCC_SaberMod" remote="bl" revision="sm-androideabi-4.8.5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="GCC_SaberMod" remote="bl" revision="sm-androideabi-4.9.3" />
 
 </manifest>
