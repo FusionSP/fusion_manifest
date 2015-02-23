@@ -107,6 +107,7 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.0" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.0">
     <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
+  </project>
   <!-- END -->
 
   <!-- Linaro -->
