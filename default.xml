@@ -60,6 +60,7 @@
   <project path="external/jpeg" name="android_external_jpeg" remote="fusion" revision="lp5.0" />
   <project path="external/skia" name="android_external_skia" remote="fusion" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="fusion" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.0" />
