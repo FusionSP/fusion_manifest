@@ -7,10 +7,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r3" />
 
-  <!-- CyanogenMod default
+  <!-- CyanogenMod default -->
   <remote  name="cyanogenmod"
            fetch=".."
-           review="review.cyanogenmod.org" /> -->
+           review="review.cyanogenmod.org" />
 
   <!-- CyanogenMod -->
   <remote  name="cm"
