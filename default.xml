@@ -56,7 +56,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fusion" revision="lp5.1" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.1" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="fusion" revision="lp5.1" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-12.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.1" />
   <!-- <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.1" /> -->
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.1" />
