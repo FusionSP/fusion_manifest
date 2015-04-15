@@ -73,6 +73,7 @@
   <!-- <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.1" /> -->
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="fusion" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="fusion" revision="lp5.1" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fusion" revision="lp5.1" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.1" />
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1" />
@@ -545,7 +546,6 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
