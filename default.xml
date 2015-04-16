@@ -81,6 +81,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fusion" revision="lp5.1" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.1" />
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.1" />
   <!-- END -->
 
   <!-- Linaro - temporary
@@ -608,7 +609,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
