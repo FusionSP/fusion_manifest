@@ -85,7 +85,7 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.1" />
   <!-- END -->
 
-  <!-- Linaro - temporary
+  <!-- Linaro -->
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
@@ -98,7 +98,7 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
   <project path="external/openssl" name="platform/external/openssl" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" /> -->
+  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
 
   <!-- AOSP & CyanogenMod -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -142,7 +142,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
+  <!-- <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" /> -->
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
@@ -162,7 +162,7 @@
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
-  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
+  <!--  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" /> -->
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" />
   <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" remote="aosp" />
@@ -197,18 +197,18 @@
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" />
+  <!--  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
+  <!--  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" /> -->
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
+  <!--  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" /> -->
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
@@ -238,16 +238,16 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" />
   <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
-  <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
+  <!--  <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" /> -->
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs" />
-  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp" />
+  <!--  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" />
+  <!--  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
@@ -301,11 +301,11 @@
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" />
-  <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" />
+  <!--  <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" /> -->
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
+  <!--  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" /> -->
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
@@ -338,7 +338,7 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <!--  <project path="external/openssl" name="CyanogenMod/android_external_openssl" /> -->
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
@@ -373,10 +373,10 @@
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
+  <!--  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" /> -->
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
+  <!--  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" />
