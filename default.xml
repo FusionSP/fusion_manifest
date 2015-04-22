@@ -5,7 +5,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.0_r5" />
+           revision="refs/tags/android-5.1.1_r1" />
 
   <!-- CyanogenMod default -->
   <remote  name="cyanogenmod"
@@ -90,19 +90,19 @@
   <!-- END -->
 
   <!-- Linaro -->
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/openssl" name="platform/external/openssl" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.0_r5" />
+  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/openssl" name="platform/external/openssl" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
+  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
 
   <!-- AOSP & CyanogenMod -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
