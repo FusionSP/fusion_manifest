@@ -60,7 +60,7 @@
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.1" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-12.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.1" />
-  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.1" /> -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="fusion" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.1" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="fusion" revision="lp5.1" />
@@ -78,7 +78,7 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="fusion" revision="lp5.0" />
-  <!-- <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.1" /> -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="fusion" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="fusion" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.1" />
