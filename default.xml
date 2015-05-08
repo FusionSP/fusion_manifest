@@ -629,11 +629,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
   <!-- We compile with SaberMod ToolChains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.7.4" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.8.5" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.9.3" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="GCC_SaberMod" remote="bl" revision="sm-eabi-4.10.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="GCC_SaberMod" remote="bl" revision="sm-androideabi-4.8.5" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="GCC_SaberMod" remote="bl" revision="sm-androideabi-4.9.3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.7.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.8.5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.9.3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.10.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="GCC_SaberMod" remote="black" revision="sm-androideabi-4.8.5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="GCC_SaberMod" remote="black" revision="sm-androideabi-4.9.3" />
 
 </manifest>
