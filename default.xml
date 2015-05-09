@@ -52,7 +52,7 @@
   </project>
   <project path="android" name="fusion_manifest" remote="fusion" revision="lp5.1-private" />
   <project path="art" name="android_art" remote="fusion" revision="lp5.1" />
-  <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.1" />
+  <project path="bionic" name="android_bionic" remote="fusion" revision="lp5.1-new" />
   <project path="bootable/recovery" name="android_fusion_recovery" remote="fusion" revision="lp5.1" />
   <project path="development" name="android_development" remote="fusion" revision="lp5.1" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="fusion" revision="lp5.1" />
@@ -91,7 +91,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fusion" revision="lp5.1" />
   <project path="vendor/fusion" name="android_vendor_fusion" remote="fusion" revision="lp5.1" />
-  <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1" />
+  <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1-new" />
   <project path="system/extras" name="android_system_extras" remote="fusion" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.1" />
   <!-- END -->
