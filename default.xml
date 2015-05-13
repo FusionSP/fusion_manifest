@@ -630,6 +630,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- We compile with SaberMod ToolChains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.7.4" />
