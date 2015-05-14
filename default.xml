@@ -97,6 +97,7 @@
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1-new" />
   <project path="system/extras" name="android_system_extras" remote="fusion" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.1" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="fusion" revision="lp5.1" />
   <!-- END -->
 
   <!-- Linaro -->
@@ -630,7 +631,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- We compile with SaberMod ToolChains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="GCC_SaberMod" remote="black" revision="sm-eabi-4.7.4" />
