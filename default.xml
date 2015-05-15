@@ -64,6 +64,7 @@
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="fusion" revision="lp5.1" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.1" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-12.1" />
+  <project path="external/stlport" name="android_external_stlport" remote="fusion" revision="lp5.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="black" revision="lp5.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.1" />
@@ -112,7 +113,6 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
   <project path="external/openssl" name="platform/external/openssl" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="linaro" revision="refs/tags/android-5.1.1_r1" />
 
   <!-- AOSP & CyanogenMod -->
