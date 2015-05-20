@@ -98,6 +98,7 @@
   <project path="system/core" name="android_system_core" remote="fusion" revision="lp5.1-new" />
   <project path="system/extras" name="android_system_extras" remote="fusion" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="fusion" revision="lp5.1" />
+  <project path="system/vold" name="android_system_vold" remote="fusion" revision="lp5.1-new" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="fusion" revision="lp5.1" />
   <!-- END -->
 
@@ -618,7 +619,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
