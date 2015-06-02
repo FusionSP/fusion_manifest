@@ -69,6 +69,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="black" revision="lp5.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.1" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="fusion" revision="lp5.1" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.1" />
