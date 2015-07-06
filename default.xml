@@ -62,9 +62,11 @@
   <project path="external/chromium_org/third_party/WebKit" name="android_external_chromium_org_third_party_WebKit" remote="fusion" revision="lp5.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fusion" revision="lp5.1" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="fusion" revision="lp5.1" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="fusion" revision="lp5.1" />
   <project path="external/libpng" name="android_external_libpng" remote="fusion" revision="lp5.1" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-12.1" />
   <project path="external/stlport" name="android_external_stlport" remote="fusion" revision="lp5.1" />
+  <project path="external/webrtc" name="android_external_webrtc" remote="fusion" revision="lp5.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" revision="lp5.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="black" revision="lp5.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="fusion" revision="lp5.1" />
@@ -294,7 +296,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
@@ -408,7 +409,6 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
   <project path="external/whispersystems/curve25519" name="CyanogenMod/android_external_whispersystems_curve25519-java" />
   <project path="external/whispersystems/libtextsecure" name="CyanogenMod/android_external_whispersystems_libtextsecure-java" />
