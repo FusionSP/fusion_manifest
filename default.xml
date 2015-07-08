@@ -82,6 +82,7 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="fusion" revision="lp5.1" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/FusionOTA" name="android_packages_apps_FusionOTA" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="fusion" revision="lp5.1" />
@@ -550,7 +551,6 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
