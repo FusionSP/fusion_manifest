@@ -100,6 +100,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="black" revision="lp5.1" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="fusion" revision="lp5.1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="fusion" revision="lp5.1" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="fusion" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="fusion" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" revision="lp5.1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fusion" revision="lp5.1" />
@@ -554,7 +555,6 @@
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
