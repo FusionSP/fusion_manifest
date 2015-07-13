@@ -77,6 +77,7 @@
   <project path="frameworks/webview" name="android_frameworks_webview" remote="fusion" revision="lp5.1-new" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="fusion" revision="lp5.1" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.1" />
   <project path="libcore" name="android_libcore" remote="fusion" revision="lp5.1-new" />
@@ -447,7 +448,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
-  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
