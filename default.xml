@@ -80,6 +80,13 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="fusion" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" revision="lp5.1" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8610" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8610" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" remote="fusion" revision="lp5.1-caf-8994" />
   <project path="libcore" name="android_libcore" remote="fusion" revision="lp5.1-new" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="fusion" revision="lp5.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="fusion" revision="lp5.1" />
@@ -502,13 +509,6 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8610" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8610" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
